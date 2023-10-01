@@ -13,6 +13,6 @@ import { AppComponent } from './app.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent]  // указывается с чего начинается все приложение т.е. с AppComponent
 })
 export class AppModule { }
